@@ -1,0 +1,35 @@
+/* technical stuff - set sizing to border
+box method */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* style the various structural elements */
+html {
+  background-color: White;
+}
+body {
+  background-color: White;
+}
+header {
+  background-color: #f45556;
+}
+nav {
+  background-color: #fcab68;
+}
+article {
+  background-color: #ffd239;
+}
+section {
+  background-color: #88bb75;
+}
+aside {
+  background-color: #1eaddf;
+}
+footer {
+  background-color: #ba99c0;
+}

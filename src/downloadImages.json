@@ -1,0 +1,150 @@
+[
+    {
+        "name": "BENTO_BOX",
+        "icon": "BENTO_BOX.png"
+    },
+    {
+        "name": "BOY_GIRL_NANONAUTS",
+        "icon": "BOY_GIRL_NANONAUTS.png"
+    },
+    {
+        "name": "CHERRY_BLOSSOM_TREE",
+        "icon": "CHERRY_BLOSSOM_TREE.png"
+    },
+    {
+        "name": "CLAPPER",
+        "icon": "CLAPPER.png"
+    },
+    {
+        "name": "DOJO_OUTSIDE_GREET",
+        "icon": "DOJO_OUTSIDE_GREET.png"
+    },
+    {
+        "name": "DOJO_PIXEL_BADGE",
+        "icon": "DOJO_PIXEL_BADGE.png"
+    },
+    {
+        "name": "DOJO_SITTING",
+        "icon": "DOJO_SITTING.png"
+    },
+    {
+        "name": "FANCY_DRESS_BALLERINA_NINJA",
+        "icon": "FANCY_DRESS_BALLERINA_NINJA.png"
+    },
+    {
+        "name": "FANCY_DRESS_COWBOY_NINJA",
+        "icon": "FANCY_DRESS_COWBOY_NINJA.png"
+    },
+    {
+        "name": "FANCY_DRESS_GODZILLA_NINJA",
+        "icon": "FANCY_DRESS_GODZILLA_NINJA.png"
+    },
+    {
+        "name": "FANCY_DRESS_PIRATE_NINJA",
+        "icon": "FANCY_DRESS_PIRATE_NINJA.png"
+    },
+    {
+        "name": "FANCY_DRESS_SUPER_NINJA",
+        "icon": "FANCY_DRESS_SUPER_NINJA.png"
+    },
+    {
+        "name": "FANCY_DRESS_TROJAN_NINJA",
+        "icon": "FANCY_DRESS_TROJAN_NINJA.png"
+    },
+    {
+        "name": "FANCY_DRESS_VIKING_NINJA",
+        "icon": "FANCY_DRESS_VIKING_NINJA.png"
+    },
+    {
+        "name": "FANCY_DRESS_WIZARD_NINJA",
+        "icon": "FANCY_DRESS_WIZARD_NINJA.png"
+    },
+    {
+        "name": "MAHJONG",
+        "icon": "MAHJONG.png"
+    },
+    {
+        "name": "NINJA_BALANCE",
+        "icon": "NINJA_BALANCE.png"
+    },
+    {
+        "name": "NINJA_BLUE",
+        "icon": "NINJA_BLUE.png"
+    },
+    {
+        "name": "NINJA_BOX",
+        "icon": "NINJA_BOX.png"
+    },
+    {
+        "name": "NINJA_FACE_FORWARD",
+        "icon": "NINJA_FACE_FORWARD.png"
+    },
+    {
+        "name": "NINJA_GLOBE",
+        "icon": "NINJA_GLOBE.png"
+    },
+    {
+        "name": "NINJA_GREEN",
+        "icon": "NINJA_GREEN.png"
+    },
+    {
+        "name": "NINJA_GUITAR",
+        "icon": "NINJA_GUITAR.png"
+    },
+    {
+        "name": "NINJA_HIGH_FIVE",
+        "icon": "NINJA_HIGH_FIVE.png"
+    },
+    {
+        "name": "NINJA_MAGNIFY",
+        "icon": "NINJA_MAGNIFY.png"
+    },
+    {
+        "name": "NINJA_MAP",
+        "icon": "NINJA_MAP.png"
+    },
+    {
+        "name": "NINJA_PAINTPALLETTE",
+        "icon": "NINJA_PAINTPALLETTE.png"
+    },
+    {
+        "name": "NINJA_RADICAL",
+        "icon": "NINJA_RADICAL.png"
+    },
+    {
+        "name": "NINJA_RED",
+        "icon": "NINJA_RED.png"
+    },
+    {
+        "name": "NINJA_SCROLL",
+        "icon": "NINJA_SCROLL.png"
+    },
+    {
+        "name": "NINJA_SELFIE",
+        "icon": "NINJA_SELFIE.png"
+    },
+    {
+        "name": "NINJA_SNAKE",
+        "icon": "NINJA_SNAKE.png"
+    },
+    {
+        "name": "NINJA_STANCE",
+        "icon": "NINJA_STANCE.png"
+    },
+    {
+        "name": "NINJA_TOWER",
+        "icon": "NINJA_TOWER.png"
+    },
+    {
+        "name": "NINJA_YELLOW",
+        "icon": "NINJA_YELLOW.png"
+    },
+    {
+        "name": "SENSEI_MAN",
+        "icon": "SENSEI_MAN.png"
+    },
+    {
+        "name": "SENSEI_WOMAN",
+        "icon": "SENSEI_WOMAN.png"
+    }
+]

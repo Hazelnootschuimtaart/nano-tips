@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code pagina 55</title>
+  </head>
+  <body>
+    <div>
+      <h3>HTML:</h3>
+      <pre>
+            <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Kom naar ons kijken&lt;/title&gt;
+    &lt;link
+      type="text/css"
+      rel="stylesheet"
+      href="css/mijn-eerste-stylesheet.css"
+    /&gt;
+    &lt;meta charset="utf-8" /&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;nav&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="over-ons.html"&gt;Over ons&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="onze-liedjes.html"&gt;Onze liedjes&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="kom-kijken.html"&gt;Kom naar ons kijken&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="optreden.html"&gt;Een optreden geven&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+    &lt;h1&gt;Kom naar ons kijken!&lt;/h1&gt;
+    &lt;h2&gt;Ons volgende concert&lt;/h2&gt;
+    &lt;p&gt;
+      Is op zaterdag 18 juni om 16.00 uur in de muziektent van het Seafront Park
+      in Bray.
+    &lt;/p&gt;
+    &lt;p&gt;Toegang is &lt;strong&gt;gratis!&lt;/strong&gt;&lt;/p&gt;
+    &lt;iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2389.76841 5129388!2d-6.1004805846458385!3d53.20406939306039!2m3!1f0!2f0!3f0!3m2!1i1024! 2i768! 4f13.1!3m3!1m2!1s0x4867a8680bea21b5%3A0x6c1f35aeb7249ff7!2sBray+Promena de%2C+Bray%2 C+Co.+Wicklow%2C+Ireland!5e0!3m2!1sen!2suk!4v1450275739107"
+      width="600"
+      height="450"
+      frameborder="0"
+      style="border: 0"
+      allowfullscreen
+    &gt;&lt;/iframe&gt;
+    &lt;h2&gt;Aankomende concerten&lt;/h2&gt;
+    &lt;table&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Datum&lt;/th&gt;
+        &lt;th&gt;Locatie&lt;/th&gt;
+        &lt;th&gt;Tijd&lt;/th&gt;
+        &lt;th&gt;Prijs&lt;/th&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Zondag 12 juni&lt;/td&gt;
+        &lt;td&gt;Paradiso&lt;/td&gt;
+        &lt;td&gt;19:30 uur&lt;/td&gt;
+        &lt;td&gt;€ 5.00&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Woensdag 15 juni&lt;/td&gt;
+        &lt;td&gt;Vossius Gymnasium&lt;/td&gt;
+        &lt;td&gt;20:00 uur&lt;/td&gt;
+        &lt;td&gt;Gratis!&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Zaterdag 10 juli&lt;/td&gt;
+        &lt;td&gt;Podium Mozaïek&lt;/td&gt;
+        &lt;td&gt;11:00 uur&lt;/td&gt;
+        &lt;td&gt;Gratis!&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Zondag 11 juli&lt;/td&gt;
+        &lt;td&gt;Podium Mozaïek&lt;/td&gt;
+        &lt;td&gt;14:00 uur&lt;/td&gt;
+        &lt;td&gt;Gratis!&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Zondag 28 augustus&lt;/td&gt;
+        &lt;td&gt;Paradiso&lt;/td&gt;
+        &lt;td&gt;19:30 uur&lt;/td&gt;
+        &lt;td&gt;€ 5.00&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+            </code>
+        </pre>
+      <h3>CSS:</h3>
+      <pre>
+          <code>
+body {
+  background-color: Thistle;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  min-width: 256px;
+  padding-top: 8px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+html {
+  background: radial-gradient(
+    circle,
+    SkyBlue,
+    SkyBlue 50%,
+    LightCyan 50%,
+    SkyBlue
+  );
+  background-size: 8px 8px;
+}
+nav ul {
+  list-style-type: none;
+  background-color: #b577b5;
+  border: 4px solid #111111;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 16px;
+}
+nav ul li {
+  display: inline;
+  border-right: 2px solid #111111;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+nav ul li:last-child {
+  border-right: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #111111;
+}
+
+table {
+  font-size: 70%;
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #fcab68;
+}
+td {
+  background-color: #ba99c0;
+}            
+          </code>
+        </pre>
+    </div>
+  </body>
+</html>

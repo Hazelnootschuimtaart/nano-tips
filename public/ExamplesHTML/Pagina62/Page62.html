@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code pagina 62</title>
+  </head>
+  <body>
+    <div>
+      <h3>HTML:</h3>
+      <pre>
+          <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Plaatje&lt;/title&gt;
+    &lt;link
+      type="text/css"
+      rel="stylesheet"
+      href="css/mijn-eerste-stylesheet.css"
+    /&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      &lt;img
+        id="toon-plaatje"
+        onclick="swapImage()"
+        src="afbeeldingen/01.png"
+        width="180"
+        height="180"
+      /&gt;
+    &lt;/p&gt;
+    &lt;p&gt;Klik op het plaatje om hem te veranderen!&lt;/p&gt;
+    &lt;script&gt;
+      function swapImage() {
+        var imageDisplayed = document.getElementById("toon-plaatje");
+        if (imageDisplayed.src.match("afbeeldingen/01.png")) {
+          imageDisplayed.src = "afbeeldingen/02.png";
+        } else {
+          imageDisplayed.src = "afbeeldingen/01.png";
+        }
+      }
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+            </code>
+        </pre>
+    </div>
+  </body>
+</html>

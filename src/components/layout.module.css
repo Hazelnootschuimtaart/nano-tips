@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Pixelsplitter";
+  src: url("../../public/fonts/pixelsplitter-bold-webfont.ttf");
+}
+
+/* Bar where the text www.meisenmaas.nl is displayed */
+.upperBanner {
+  background-color: black;
+  height: 30px;
+  width: 100%;
+  font-size: 10px;
+  line-height: 30px;
+  text-align: right;
+}
+.upperBanner a,
+.upperBanner a:visited {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  padding-right: 5px;
+}
+
+/* This div contains the picture with the logo, the menu, the page content and the footnote */
+.tableDiv {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: grid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tableDiv > div {
+  vertical-align: middle;
+  width: 1200px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0px;
+}
+
+/* The backgroundpicture of the logo-banner */
+.logo {
+  background: transparent url("../images/dojo.jpg") no-repeat scroll 50%/1170px
+    auto;
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 0;
+  text-align: center;
+}
+/* The logo itself */
+.logo img {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Menu layout: */
+
+/* Menu-items */
+.navStyle div {
+  background-color: black;
+  display: table-cell;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navStyle div:last-child {
+  width: 100%;
+}
+/* Links in the menu-items */
+.navStyle div a {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+  font-family: "Pixelsplitter";
+}
+/* ul submenu 'voorbeelden' and submenu 'tips'*/
+.subMenu {
+  background-color: gray;
+  display: none;
+  list-style: none;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+}
+/* at hover over menu-items 'voorbeelden' and tips */
+.subMenu.selected {
+  display: grid;
+  z-index: 50;
+  justify-content: center;
+  list-style: none;
+  grid-template-columns: auto auto;
+  grid-auto-rows: 40px;
+  padding-top: 0px;
+  margin-top: 5px;
+}
+/* listitems of ul submenu */
+.subMenuItems {
+  padding-top: 5px;
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* For showing a tab is selected or hovered */
+.whiteTab {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+/* For an unselected or not-hovered tab */
+.blackTab {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+/* For an unselected or not-hovered submenu-tab */
+.grayTab {
+  color: white;
+  background-color: gray;
+}
+
+/* Part where the page content is shown */
+.outletDiv {
+  background-color: white;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+/* Footnote bar */
+.footnote {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+}
+/* Footnote text */
+.footnote div {
+  padding: 5px;
+}

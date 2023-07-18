@@ -1,0 +1,79 @@
+body {
+  background-color: White;
+  color: #111111;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  min-width: 256px;
+}
+/* technical stuff - set sizing to border
+box method */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* style the various structural elements */
+html {
+  background-color: White;
+}
+body {
+  background-color: White;
+}
+header {
+  background-color: #f45556;
+}
+nav {
+  background-color: #fcab68;
+}
+article {
+  background-color: #ffd239;
+}
+section {
+  background-color: #88bb75;
+}
+aside {
+  background-color: #1eaddf;
+}
+footer {
+  background-color: #ba99c0;
+}
+
+img.medium {
+  max-width: 360px;
+  width: 50%;
+}
+img.large {
+  width: 100%;
+}
+
+img.small {
+  float: left;
+  height: 200px;
+  margin-bottom: 24px;
+  margin-right: 24px;
+}
+
+section {
+  background-color: #88bb75;
+  margin-bottom: 24px;
+  min-height: 320px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+body {
+  background-color: White;
+  color: #111111;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  min-width: 256px;
+  padding-left: 24px;
+  padding-right: 24px;
+}

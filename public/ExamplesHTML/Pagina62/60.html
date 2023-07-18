@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Plaatje</title>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/mijn-eerste-stylesheet.css"
+    />
+  </head>
+  <body>
+    <p>
+      <img
+        id="toon-plaatje"
+        onclick="swapImage()"
+        src="afbeeldingen/01.png"
+        width="180"
+        height="180"
+      />
+    </p>
+    <p>Klik op het plaatje om hem te veranderen!</p>
+    <script>
+      function swapImage() {
+        var imageDisplayed = document.getElementById("toon-plaatje");
+        if (imageDisplayed.src.match("afbeeldingen/01.png")) {
+          imageDisplayed.src = "afbeeldingen/02.png";
+        } else {
+          imageDisplayed.src = "afbeeldingen/01.png";
+        }
+      }
+    </script>
+  </body>
+</html>

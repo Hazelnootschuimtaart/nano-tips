@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(255, 95, 122) url("./images/bg_with_trees.png") no-repeat scroll 50%/1170px auto;
+  background-size: 115%;
+  background-attachment: fixed;
 }
 
 code {
